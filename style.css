@@ -1,0 +1,116 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.wrapper {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 35px;
+  color: #273c75;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #718093;
+  font-size: 16px;
+}
+
+.form-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 220px;
+  border: 2px solid #dcdde1;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 16px;
+  resize: vertical;
+  transition: all 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #40739e;
+  outline: none;
+}
+
+button {
+  background: #40739e;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #273c75;
+}
+
+.result-card {
+  margin-top: 30px;
+  background: #f1f2f6;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.result-card h2 {
+  margin-bottom: 15px;
+  color: #2f3640;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 17px;
+  color: #353b48;
+  margin-bottom: 20px;
+}
+
+.btn-download {
+  display: inline-block;
+  background: #44bd32;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn-download:hover {
+  background: #4cd137;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #718093;
+}
